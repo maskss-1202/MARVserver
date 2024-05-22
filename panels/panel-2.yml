@@ -1,0 +1,43 @@
+panels:
+  panel-2:
+    perm: default
+    rows: 6
+    title: '&8Generated panel-2'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '10':
+        material: CHEST
+        stack: 1
+        name: 'SHOP'
+      '12':
+        material: BEACON
+        stack: 1
+        name: 'HUB'
+      '14':
+        material: GRASS_BLOCK
+        stack: 1
+        name: '&3Resource Hub'
+        commands:
+        - cp panel-3
+      '16':
+        material: BELL
+        stack: 1
+        name: 'CITY'
+      '29':
+        material: IRON_SWORD
+        stack: 1
+        name: ''
+      '31':
+        material: IRON_pickaxe
+        stack: 1
+        name: 'JOBs' 
+        commands:
+        - jobs browse               
+      '33':
+        material: WRITABLE_BOOK
+        stack: 1
+        name: 'lang'
+      '45':
+        material: BARRIER
+        stack: 1
+        name: '戻る'

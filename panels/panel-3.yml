@@ -1,0 +1,25 @@
+panels:
+  panel-3:
+    perm: default
+    rows: 3
+    title: '&3PVP HUB'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '11':
+        material: GRASS_BLOCK
+        stack: 1
+        name: '開発中'
+      '13':
+        material: NETHERRACK
+        stack: 1
+        name: '開発中'
+      '15':
+        material: END_STONE
+        stack: 1
+        name: '開発中'
+      '18':
+        material: BARRIER
+        stack: 1
+        name: '戻る'
+        commands:
+        - cp panel-1

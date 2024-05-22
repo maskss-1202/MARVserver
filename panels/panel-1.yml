@@ -1,0 +1,73 @@
+panels:
+  panel-1:
+    perm: default
+    rows: 6
+    title: '&aSelector'
+    empty: BLACK_STAINED_GLASS_PANE
+    open-with-item:
+      material: compass
+      name: "&7[&aSelector&7]"
+      lore:
+      - '&fclick！！'
+      stationary: 4
+      commands:
+      - open= panel-1
+    item:
+      '10':
+        material: CHEST
+        stack: 1
+        name: '&aSHOP'
+      '12':
+        material: BEACON
+        stack: 1
+        name: '&bHUB'
+        lore:
+        - '&bHUBに戻ります'
+      '14':
+        material: BOW
+        stack: 1
+        name: '&cPVP'
+        commands:
+        - cp panel-3
+        lore:
+        - '&c開発中です！しばらくお待ちください！！'
+      '16':
+        material: BELL
+        stack: 1
+        name: '&6CITY'
+        lore:
+        - '&6MARVCITYにいきます'
+      '28':
+        material: IRON_SWORD
+        stack: 1
+        name: '&9Skills'
+        commands:
+        - skills
+        lore:
+        - '&9自分を強化していこう！！'
+      '30':
+        material: IRON_pickaxe
+        stack: 1
+        name: '&dJobs' 
+        commands:
+        - jobs browse   
+        lore:
+        - '&d仕事に就いてお金を稼ごう！！'            
+      '32':
+        material: WRITABLE_BOOK
+        stack: 1
+        name: '&eBANK'
+        commands:
+        - cp panel-5
+        lore:
+        - '&e銀行'
+      '34':
+        material: WRITABLE_BOOK
+        stack: 1
+        name: 'lang'
+        commands:
+        - cp panel-4
+        lore:
+        - '&8言語の選択'
+
+

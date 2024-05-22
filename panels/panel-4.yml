@@ -1,0 +1,25 @@
+panels:
+  panel-4:
+    perm: default
+    rows: 3
+    title: '&8language'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '11':
+        material: ENCHANTED_BOOK
+        stack: 1
+        name: '日本語'
+        commands:
+        - skills lang ja
+      '15':
+        material: ENCHANTED_BOOK
+        stack: 1
+        name: 'English'
+        commands:
+        - skills lang en
+      '18':
+        material: BARRIER
+        stack: 1
+        name: '戻る'
+        commands:
+        - cp panel-1        
